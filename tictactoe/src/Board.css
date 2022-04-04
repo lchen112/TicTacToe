@@ -1,0 +1,6 @@
+.board {
+  display: flex;
+  flex-flow: wrap;
+  height: 300px;
+  width: 300px;
+}

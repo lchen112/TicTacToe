@@ -1,0 +1,8 @@
+.tile {
+  height: 100px;
+  width: 100px;
+  box-sizing: border-box;
+  border: 8px solid rebeccapurple;
+  cursor: pointer;
+  font-size: x-large;
+}
