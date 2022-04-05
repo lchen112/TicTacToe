@@ -9,7 +9,7 @@
   "Print to console": {
     "scope": "javascript,typescript",
     "prefix": "clog",
-    "body": ["console.log('$1');", "$2"],
+    "body": ["console.log({$1});", "$2"],
     "description": "Log output to console"
   },
   "Create functional component": {

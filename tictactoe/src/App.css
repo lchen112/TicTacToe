@@ -18,3 +18,17 @@
   display: flex;
   justify-content: center;
 }
+
+.victory-message {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.reset-button {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 24px;
+  border-radius: 12px;
+  cursor: pointer;
+}

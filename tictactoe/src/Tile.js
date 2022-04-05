@@ -1,13 +1,13 @@
 import React from "react";
 import "./Tile.css";
-const Tile = ({ handleClick, t, index }) => {
+const Tile = ({ handleClick, winner, t, index }) => {
   return (
     <button
-      disabled={t.entry !== null}
+      disabled={t.entry !== null || winner}
       onClick={() => handleClick(index)}
       className="tile"
     >
-      {t.entry}
+      {t?.entry}
     </button>
   );
 };
