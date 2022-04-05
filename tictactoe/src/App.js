@@ -65,7 +65,7 @@ function App() {
       <header className="App-header">
         <h1>Lets play Tic Tac Toe!</h1>
       </header>
-      <section>
+      <section className="content">
         <div className="board-container">
           <Board tiles={tiles} winner={winner} handleClick={handleClick} />
         </div>

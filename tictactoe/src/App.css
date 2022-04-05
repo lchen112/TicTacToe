@@ -4,7 +4,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 10vh;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,8 +13,12 @@
   color: white;
 }
 
+.content {
+  height: calc(100vh - 15vh);
+}
+
 .board-container {
-  margin-top: 24px;
+  margin-top: 10vh;
   display: flex;
   justify-content: center;
 }
